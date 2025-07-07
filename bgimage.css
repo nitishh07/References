@@ -1,0 +1,12 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bg.jpg");
+    /* background-size: contain; --> IMAGE REPEAT */
+    background-size: cover; /*--> Crop kr dega -Mostly used*/
+    /* background-size: auto; --> Stretch kr dega  */
+    color:white;
+} 
+

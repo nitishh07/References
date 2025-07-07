@@ -1,0 +1,34 @@
+h2{
+    display:inline;
+    background-color: aqua;
+}
+
+span{
+    /* display:block; */
+    border: 2px solid black;
+    height:100px;   /*height and width makes no differnece*/
+    width:20px;
+    padding:70px;   /*Padding is only on left and right */
+    margin: 20px;   /* Margin is only on left and right */
+}
+ 
+/* div{
+    border: 20px solid black;
+    height:100px;   
+    width:200px;
+    padding:70px;   
+    margin: 20px;
+}  */
+
+
+div{
+    height:200px;
+    width:200px;
+    background-color: greenyellow;
+    border:2px solid black;
+    margin: 5px;
+    /* display:inline;  blackish line show kr rha h bss  --heiht width ni rhega jiske karan bg color bhi ni rhega & */
+
+    display: inline-block;  /*inline-block mtlb style apply acc. to block elemnts but behave like inline elemnts */
+    /* display:none;          kisi elemnt ko hide krne ke liye*/
+}

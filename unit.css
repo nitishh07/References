@@ -1,0 +1,44 @@
+/* PERCENTAGE  , EM */
+
+h1{
+    border:2px solid black;
+    width: 50%;
+}
+
+#outer{
+    height:400px;
+    width: 400px;
+    background-color: pink;
+    border : 2px solid black;
+    /* margin: 50px; */
+    font-size: 20px;
+}
+
+#inner{
+    height : 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size : 2em;       /* em --> outer div ke utna times ho jaega 2*times */
+    padding: 2em;
+    /* margin-left: 10%; */
+}
+
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid red;
+    padding-left: 1em;
+    padding-right: 1em;   /*em se jab font size change hoga to padding uske according 
+                          change hoga ni to aise bada chota hote rhega font size ke inc or dec hone pe */
+}
+
+
+/* REM */
+
+section{
+    font-size : 15px;
+}
+
+div{
+    font-size: 2rem;
+}

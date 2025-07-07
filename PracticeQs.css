@@ -1,0 +1,25 @@
+/* Universal Selector */
+*{                                    
+    font-family: Courier New;
+}
+
+/* Element Selector */
+h1{
+    color:#1b74e4;
+}
+
+/* Id selector */
+#searchbtn{
+    background-color: black;
+    color:white;
+}
+
+/* Class selector */
+.userbtn{
+    background-color: aqua;
+}
+
+/* Practice Ques */
+#myId p{
+    color:green;
+}

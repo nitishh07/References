@@ -1,0 +1,70 @@
+#outer{
+    font-size: 20px;
+}
+
+#inner{
+    font-size: 2em;
+    padding: 2em;
+}
+
+
+#card{
+    width: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px black;
+    margin: 10px;
+    transition: 1s;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.desc{
+    padding: 0 2px 0 2px;
+}
+
+#card:hover{
+    box-shadow: 0px 4px 10px black;
+}
+
+h3:active{
+    color: aqua;
+
+}
+
+#flex {
+    height: 500px;
+    width: 80%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;  
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    color: white;
+}
+
+.two{
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+
+.three{
+    height: 200px;
+    width: 100px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
